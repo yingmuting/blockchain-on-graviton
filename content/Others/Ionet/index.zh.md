@@ -58,7 +58,7 @@ sudo bash -c 'cat <<EOF > /etc/docker/daemon.json
 }
 EOF'
 
-# Restart Docker to apply changes.
+
 
 sudo systemctl restart docker
 
